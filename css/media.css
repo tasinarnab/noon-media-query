@@ -1,0 +1,36 @@
+@media only screen and (max-width:768px){
+    body{
+        background-color: aqua;
+    }
+
+    p{
+        color: brown;
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:425px){
+    body{
+        background-color: blueviolet;
+    }
+
+    p{
+        font-size: 10px;
+        color: white;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width:375px){
+    body{
+        background-color:black;
+    }
+
+    p{
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        background-color: green;
+    }
+}
